@@ -2,76 +2,142 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: "Raleway", sans-serif;
-	/*min-width: 1000px;*/
+	font-size: 18px;
+	line-height: 24px;
+	color: #000000;
+	
 }
 
-/*.container {
-	width: 980px;
+.container {
+	width: 1000px;
 	margin: 0 auto;
 	padding: 0 10px;
-}*/
-
-h1{
-	font-size: 45px;
-	text-align:center;
-
+	/*background-color: grey;*/
 }
-
-header {
-	/*display: flex;*/
-	/*justify-content: space-between;
-	align-items: center;
-	padding: 20px;*/
-}
-
-.header__banner {
-	/*width: 100%;*/
+/*шапка*/
+.main-header{
 	padding-top: 65px;
-	padding-bottom: 155px;
-	height: 500px;
-	/*padding-top: 25px;
-	padding-bottom: 25px;*/
+	padding-bottom: 700px;
 	background-image: url("images/banner.jpg");
 	background-repeat: no-repeat;
 	background-position: center 100%;
-	background-size: cover;
+	background-size: cover
 }
 
 .main-menu {
-	/*float: center;*/
-	/*width:680px;*/
-	/*justify-content: center;*/
 	margin-top: 25px;
 	margin-bottom: 60px;
 }
 
 .main-menu ul {
 	margin: 0;
-	padding: 0;
-	list-style: none;
 }
 
 .main-menu li {
 	display: inline-block;
+	font-weight: bold;
 	font-size: 18px;
 	line-height: 24px;
-	margin-right: 40px;
+	margin-right: 20px;
 	vertical-align: top;
 }
-
 .main-menu a {
-	color: #000000;
+	color: white;
 	text-decoration: none;
 }
-
-ul {
-	display: flex;
-	justify-content: center;
-}
-
 ul li {
 	padding: 0 8px;
 }
+.main-menu a:hover{
+	text-decoration: underline;
+}
+.main-menu a:active{
+	text-decoration: none;
+	opacity: 0.3;
+}
+/*кнопка
+button{
+	font-family: "Raleway", sans-serif;
+	font-size: 15px;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0);
+	border-bottom-color: rgb(255, 207, 8);
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-radius: 15px;
+	cursor: pointer;
+	padding: 25px;
+	transition: background-color, 0.3s, ease-in;
+}
+button:hover{
+	background-color: rgb(255, 207, 8);
+	box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
+}*/
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+
+
+/*.container {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}*/
+
+.center {
+  width: 180px;
+  height: 60px;
+  position: absolute;
+}
+
+.button {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.button:hover {
+  transition: 1s ease-in-out;
+  background: #4F95DA;
+}
+
+.button:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.button span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+
+
+h1{
+	font-size: 45px;
+	text-align:center;
+}
+
+
 
 /* о нас*/
 .about {

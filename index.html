@@ -14,29 +14,36 @@
             <nav class="main-menu">
                 <ul>
                     <li><a href="#">Главная</a></li>
-                    <li><a href="#">О нас</a></li>
-                    <li><a href="#">Проголосовать</a></li>
-                    <li><a href="#">Фотографии</a></li>
-                    <li><a href="#">Новости</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#form">Проголосовать</a></li>
+                    <li><a href="#photo">Фотографии</i></a></li>
+                    <li><a href="#news">Новости</a></li>
                     <li><a href="#">Документы</a></li>
-                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
                 </ul>
             </nav>
-            <button class="button" href="#form">Отдать свой голос за парк!<i class="fas fa-angle-right"></i></button>
-
-            <div class="header__banner"></div>
-            <!--</div><img src="images/banner.jpg" class="header__banner">-->
+            <div class="center">
+            <a href="#form"><button class="button">
+                <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                  </svg>
+                  <span>Отдать свой голос за парк!</span>
+            </button></a>
+        </div>
         </div>
     </header>
 
-    <section class="about"> <!--О нас-->
+<!--О нас-->
+<main>  
+<section class="about" id="about"> 
         <div class="about-cards">
             <div class="about-card">
                 <div class="about-card__title">
                     <h1>
                         Спасем от застройки <br>парк "Территория детства"!
                     </h1>
-                    <p>#ПаркТерриторияДетства <br> #СпасемПаркТерриторияДетства</p>
+                    <p>#ПаркТерриторияДетства #СпасемПаркТерриторияДетства</p>
                 </div>
             </div>
 
@@ -58,7 +65,7 @@
 
     <!-- <button class="button" href="#">Проголосовать ЗА ПАРК<i class=""></i></button> -->
 
-    <section class="news"> <!--Новости-->
+    <section class="news" id="news"> <!--Новости-->
         <h1>Новости:</h1>
         <div class="cards-news">
             <div class="card-news">
@@ -95,7 +102,7 @@
     </section>
 
     <!--Галерея-->
-    <section class="gallery">
+    <section class="gallery" id="photo">
         <h1>Фотографии</h1>
         <div class="cards_gallery">
             <div class="card_gallery">
@@ -159,9 +166,9 @@
 
     </section>
     <!--Подвал-->
-
+</main> 
     <footer>
-        <div class="footer">
+        <div class="footer" id="contacts">
             <p>ссылки на контакты (VK)</p>
             <p>политика конфиденциальности</p>
             <p>© 2025</p>
