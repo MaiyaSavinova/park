@@ -2,178 +2,318 @@
 <html lang="ru">
 
 <head>
-    <title>Сохраним парк "Территрия детства"</title>
+    <title>Пробник</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 </head>
 
 <body>
-    <!--шапка сайта-->
-    <header class="main-header">
-        <div class="container">
-            <nav class="main-menu">
-                <ul>
-                    <li><a href="#">Главная</a></li>
-                    <li><a href="#about">О нас</a></li>
-                    <li><a href="#form">Проголосовать</a></li>
-                    <li><a href="#photo">Фотографии</i></a></li>
-                    <li><a href="#news">Новости</a></li>
-                    <li><a href="#">Документы</a></li>
-                    <li><a href="#contacts">Контакты</a></li>
-                </ul>
-            </nav>
-            <div class="center">
-            <a href="#form"><button class="button">
-                <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
-                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
-                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
-                  </svg>
-                  <span>Отдать свой голос за парк!</span>
-            </button></a>
-        </div>
-        </div>
-    </header>
-
-<!--О нас-->
-<main>  
-<section class="about" id="about"> 
-        <div class="about-cards">
-            <div class="about-card">
-                <div class="about-card__title">
-                    <h1>
-                        Спасем от застройки <br>парк "Территория детства"!
-                    </h1>
-                    <p>#ПаркТерриторияДетства #СпасемПаркТерриторияДетства</p>
-                </div>
-            </div>
-
-            <div class="about-card">
-                <div class="about-card__text">
-                    <p>
-                        <strong>ОСНОВНАЯ МЫСЛЬ ЗА ЧТО МЫ БОРЕМСЯ.</strong><br>
-                        Парку требуется юридическая защита, до сих пор земли парка не оформлены должным
-                        образом.Парку требуется благоустройство. Строительство школы в парке нельзя назвать
-                        благоустройством. Парк уменьшится в размерах, станет сквером с детской площадкой.
-                        Местные власти ссылаются на то, что строить будут на «пустыре», на неухоженной
-                        территории. Возникает вопрос: А кто виноват, что парк не ухожен? что не сажают деревья?
-                        что нет охраны и видеонаблюдения на территории?
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- <button class="button" href="#">Проголосовать ЗА ПАРК<i class=""></i></button> -->
-
-    <section class="news" id="news"> <!--Новости-->
-        <h1>Новости:</h1>
-        <div class="cards-news">
-            <div class="card-news">
-                <div class="news-1">
-                    <img src="images/news/news_1.jpg" class="photo_news">
-                    <h3>Новость №1</h3>
-                    <p>Текст новостей. Власти утверждают, что спортивное ядро
-                        будет доступно для всех жителей мкр, но по новым правилам на
-                        территорию школы не допускают посторонних людей, и даже родителей
-                        школьников.</p>
-                </div>
-            </div>
-            <div class="card-news">
-                <div class="news-2">
-                    <img src="images/news/news_2.jpg" class="photo_news">
-                    <h3>Новость №2</h3>
-                    <p>Текст новостей. Власти утверждают, что спортивное ядро
-                        будет доступно для всех жителей мкр, но по новым правилам на
-                        территорию школы не допускают посторонних людей, и даже родителей
-                        школьников.</p>
-                </div>
-            </div>
-            <div class="card-news">
-                <div class="news-3">
-                    <img src="images/news/news_3.jpg" class="photo_news">
-                    <h3>Новость №3</h3>
-                    <p>Текст новостей. Власти утверждают, что спортивное ядро
-                        будет доступно для всех жителей мкр, но по новым правилам на
-                        территорию школы не допускают посторонних людей, и даже родителей
-                        школьников.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--Галерея-->
-    <section class="gallery" id="photo">
-        <h1>Фотографии</h1>
-        <div class="cards_gallery">
-            <div class="card_gallery">
-                <div class="photo_gallery">
-                    <img src="images/photo_1.jpg" class="photo__1">
-                </div>
-            </div>
-            <div class="card_gallery">
-                <div class="photo_gallery">
-                    <img src="images/photo_2.jpg" class="photo__1">
-                </div>
-            </div>
-            <div class="card_gallery">
-                <div class="photo_gallery">
-                    <img src="images/photo_3.jpg" class="photo__1">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="VK">
-        <div>
-            <h1>Присоединяйтесь к нам в VK</h1>
-            <p><strong>"Cсылка на страничку ВКонтакте"</strong></p>
-        </div>
-    </section>
-
-    <!--форма для голосования/обратной связи-->
-
-    <section class="form" id="form" id="contacts">
-
-        <div class="form__container">
-            <h1>Голосование</h1>
-            <form>
-                <div class="form__group">
-                    <label for="name">Ваше имя</label>
-                    <input type="text" id="name" placeholder="Введите имя">
-                </div>
-                <div class="form__group">
-                    <label for="email">Электронный адрес</label>
-                    <input type="email" placeholder="***@yandex.ru" id="email">
-                </div>
-                <div class="form__group">
-                    <label for="phone">Номер телефона</label>
-                    <input type="tel" placeholder="7(999)999-99-99" id="phone">
-                </div>
-                <div class="form__group">
-                    <input type="checkbox" id="like" name="like" />
-                    <label for="like">ЗА ПАРК</label>
-                </div>
-
-                <div class="form__group">
-                    <button class="form__submit" type="submit">Отправить</button>
-                </div>
+    <!--Модальное окошечко Вверх!-->
+    <a href="#"><button class="btn btn__up"><i class="fa fa-arrow-up" aria-hidden="true"></i><br>Вверх</button></a>
+    <!--Шапка сайта-->
+    <div class="wrapper">
+        <header class="main-header">
+            <div class="header-top">
+                <div><span>#ПаркТерриторияДетства</span></div>
+                <nav class="main-menu">
+                    <ul>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Проголосовать</a></li>
+                        <li><a href="#">Фотографии</i></a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Документы</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
                 <div>
-                    <p>Нажимая на кнопку "Отправить", вы даёте согласие на обработку персональных данных
-                        и соглашаетесь c политикой конфиденциальности</p>
+                    <a class="social-icon-vk" href="https://vk.com/park_territoria_detstva" target="blank">
+                        <i class="fa fa-vk" aria-hidden="true"></i></a>
+                    <a class="social-icon-tg" href="https://t.me/Park_Territoria_detstva" target="blank">
+                        <i class="fa fa-telegram" aria-hidden="true"></i></a>
                 </div>
-            </form>
-        </div>
+            </div>
+        </header>
+        <main class="style_main">
+            <!--Баннер-->
+            <div class="features features__dark" style="--opacityCoverImage:60%">
+                <div class="image_banner">
+                    <picture>
+                        <source media="(max-width: 767px)" srcset=""><!--Добавить разные размеры для мобилки-->
+                        <img src="images/banner.jpg" alt="подложка_шатт" class="banner">
+                    </picture>
+                </div>
+                <!--Кнопка-лозунг-->
+                <div class="prew">
+                    <div class="prew-text">
+                        <h1>Спасем от застройки <br>Парк "Територия детства"</h1>
+                    </div>
+                    <div class="logo">
+                        <img src="images/logo.png" height="250px" width="280px">
+                    </div>
+                    <div>
+                        <a href="#form"><button class="btn">
+                                <span>Отдать свой голос <br>ЗА ПАРК!</span>
+                            </button></a>
+                    </div>
+                </div>
+            </div>
+            <!--о нас-->
+            <div class="about">
+                <div class="about-style">
+                    <h3>Суть проблемы</h3>
+                    <p>В ферале 2025 глава администрации Ленинского района анонсировал
+                        строительство школы на территории парка "Территория детства".
+                        Местные жители выступили против застройки, ввиду того что любое стротительство
+                        на территории парка равно его фактическому уничтожению.</p>
+                    <h3>Что для нас значит парк "Территория детства"?</h3>
+                    <h4>ЭКОЛОГИЯ</h4>
+                    <p>Наш Парк - это ”лёгкие” микрорайона. Уничтожение единственного в округе зелёного уголка со
+                        взрослыми деревьями станет невосполнимой потерей для здоровья людей, так как новые деревья
+                        (дажеесли будут посажены и приживутся) не способны вырасти во взрослое и полноценное
+                        растение ни
+                        за ночь, ни за год.</p>
+                    <h4>ДОСТУПНОСТЬ</h4>
+                    <p>Наш Парк является излюбленным местом отдыха, игр и прогулок для любых возрастных категорий,
+                        от мала до велика, а не только для школьного возраста. Дворы близьлежащих домов не
+                        предусматривают зон отдыха ни для детей, ни для взрослых - эту проблему решает Парк.</p>
+                    <h4>ПАМЯТЬ</h4>
+                    <p>Парк “Территория детства” - это мемориальный комплекс, посвящённый Пионерам, детям-героям
+                        Великой Отечественной войны, он является неотъемлемой частью архитектурного ансамбля и имеет
+                        все признаки объекта культурного наследия, поэтому должен быть сохранён в его существующих
+                        границах.</p>
+                    <h4>Чего мы хотим добиться?</h4>
+                    <p>Защитить парк от застройки и сохранить его в существующих границах.</p>
+                    <p>Провести благоустройство.</p>
+                    <p>Присвоить парку статус "Оъект культурного наследия".</p>
+                    <p>Парк "Территория детства", наряду с “Журавлями” может стать ещё одной жемчужиной Саратова,
+                        местом
+                        Памяти и туристическим объектом.
+                    </p>
+                    <p>В твоих силах этому помочь!</p>
+                </div>
+            </div>
+            <!--Новости-->
+            <div class="news" id="news">
+                <div class="cards-news">
+                    <h1>Новости:</h1>
+                    <div class="card-news">
+                        <div class="photo_news-2"><img src="images/news/news_1.jpg" class="photo_news"></div>
+                        <div class="text-news">
+                            <h3>Жители Ленинского района Саратова записали видеообращение к главе Следственного
+                                комитета РФ</h3>
+                            <p>Сегодня, 15 марта, жители Ленинского района Саратова собрались в парке "Территория
+                                детства", чтобы записать
+                                видеообращение к главе Следственного комитета РФ Александру Бастрыкину с просьбой
+                                проверить действия чиновников
+                                и не допустить застройку части парка «Территория детства». Пришли более 50 человек,
+                                которые в очередной раз
+                                заявили, что они не против строительства школы, но не ценой значительной части их
+                                единственного парка.</p>
+                            <a href="#" class="next__news">Читать далее</a>
+                        </div>
+                    </div>
+                    <div class="card-news">
+                        <div class="photo_news-2"><img src="images/news/news_2.jpg" class="photo_news"></div>
+                        <div class="text-news">
+                            <h3>Митинг в защиту парка "Территория детства"</h3>
+                            <p>Сегодня инициативная группа жителей Саратова провела первый митинг в поддержку
+                                требований сохранения парка "Территория детства" в фактических границах и переноса
+                                места
+                                строительства школы. Публичное мероприятие прошло в соответствии требованиями
+                                Закона,
+                                соблюдением регламента, провокаторы митинг проспали</p>
+                            <a href="#" class="next__news">Читать далее</a>
+                        </div>
+                    </div>
+                    <div class="card-news">
+                        <div class="photo_news-2"><img src="images/news/news_3.jpg" class="photo_news"></div>
+                        <div class="text-news">
+                            <h3>Отчет о результатах четырех субботников</h3>
+                            <p>На протяжении 4 недель активные жители собирались, чтобы убраться в дорогом для себя
+                                парке.
+                                Приносили с собой перчатки, мусорные мешки, грабли. И с 10 до 14 часов убирались.
+                                Кто-то
+                                приходил к 10,
+                                кто-то чуть позже. Кто-то не смог прийти, но передавал необходимый инвентарь, воду и
+                                соки для детей.</p>
+                            <a href="#" class="next__news">Читать далее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Галерея-->
+            <div class="gallery">
+                <div class="wrapper-slide">
+                    <h1>Фотографии</h1>
+                    <div class="mySlides fade">
+                        <div class="number__text" style="width:100%">1/5</div>
+                        <div class="photo"><img src="images/photo_1.jpg" alt="" class="gallery__photo"></div>
+                    </div>
 
-    </section>
-    <!--Подвал-->
-</main> 
-    <footer>
-        <div class="footer" id="contacts">
-            <p>ссылки на контакты (VK)</p>
-            <p>политика конфиденциальности</p>
-            <p>© 2025</p>
+                    <div class="mySlides fade">
+                        <div class="number__text" style="width:100%">2/5</div>
+                        <div class="photo"><img src="images/photo_2.jpg" alt="" class="gallery__photo"></div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="number__text" style="width:100%">3/5</div>
+                        <div class="photo"><img src="images/photo_3.jpg" alt="" class="gallery__photo"></div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="number__text" style="width:100%">4/5</div>
+                        <div class="photo"><img src="images/photo_4.jpg" alt="" class="gallery__photo"></div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="number__text" style="width:100%">5/5</div>
+                        <div class="photo"><img src="images/photo_5.jpg" alt="" class="gallery__photo"></div>
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+                    <a class="next" onclick="plusSlides(1)"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
+                        <span class="dot" onclick="currentSlide(5)"></span>
+                    </div>
+                    <a href="#" class="next__photo">Смотреть все</a>
+                </div>
+            </div>
+            <!--Окошко VK-->
+            <div class="vkontakte">
+                <div id="vk_post_-230037618_1"></div>
+                <script type="text/javascript" src="https://vk.com/js/api/openapi.js?173"></script>
+                <script type="text/javascript">
+                    (function () {
+                        VK.Widgets.Post("vk_post_-230037618_1", -230037618, 1, '0HzBNCSwcUSOw0pQ7Hx1b7l81X4');
+                    }());
+                </script>
+            </div>
+            <!--Помощь-->
+            <div class="help">
+                <div class="help-document">
+                    <h1>Чем нам помочь?</h1>
+                    <p>Каждый в силах помочь парку, для этого вы можете:</p>
+                    <div class="blank">
+                        <p>Мы продолжаем собирать подписи в защиту парка "Территория детства" от застройки и за
+                            перенос строительства школы в другое место. Можно самим распечатать бланк или взять
+                            готовые<br>
+                            у @Kaprnat. Годится бланк даже с одной подписью. Можно подключать всех родных и знакомых,
+                            главное чтобы им было <b>строго больше 18 лет.</b>
+                            Номер по порядку не заполнять! Проставляется вручную.</p>
+                        <a href="blank_podpisi.pdf">Бланк подписи<i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="letter">
+                        <p>Вы можете направить обращения, жалобы заявления в онлайн-приемные относительно
+                            сохранения парка и переноса строительства школы на другое место:</p>
+                        <a href="http://www.letters.kremlin.ru/">Администрация президента<i class="fa fa-envelope-o"
+                                aria-hidden="true"></i></a><br>
+                        <a href="https://sledcom.ru/reception">Следственный комитет<i class="fa fa-envelope-o"
+                                aria-hidden="true"></i></a><br>
+                        <a href="http://duma.gov.ru/duma/deputies/8/">Государственная дума<i class="fa fa-envelope-o"
+                                aria-hidden="true"></i></a><br>
+                        <a href="http://council.gov.ru/structure/members/">Совет Федерации<i class="fa fa-envelope-o"
+                                aria-hidden="true"></i></a><br>
+                        <a href="https://epp.genproc.gov.ru/web/gprf/internet-reception">Генеральная прокуратура<i
+                                class="fa fa-envelope-o" aria-hidden="true"></i></a><br>
+                        <a href="http://www.fsb.ru/fsb/webreception.htm">ФСБ<i class="fa fa-envelope-o"
+                                aria-hidden="true"></i></a><br>
+                        <a href="https://vk.com/priemnaya_bastrikina">Приемная А.И.Бастрыкина<i class="fa fa-envelope-o"
+                                aria-hidden="true"></i></a><br>
+                        <a href="https://social.saratov.gov.ru/services/internet_consulting/elektronnaya_priemnaya/">Министерство
+                            труда и соц.защиты Саратовской области<i class="fa fa-envelope-o"
+                                aria-hidden="true"></i></a><br>
+                        <a href="https://t.me/Antonov64">Канал Председателя Саратовской областной думы А.В.Антонова<i
+                                class="fa fa-envelope-o" aria-hidden="true"></i></a><br>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!--Форма для голосования-->
+        <div class="form" id="form" id="contacts">
+            <div class="form__container">
+                <h1>Голосование</h1>
+                <p>Мы, нижеподписавшиеся жители города Саратова, выступаем категорически против строительства новой
+                    школы на «Территории детства» - парка у ЦДТ Ленинского
+                    района города Саратова (бывшего дворца пионеров). Мы выступаем за сохранение зеленых насаждений и
+                    зоны для прогулок и отдыха жителей. Это единственный парк в районе
+                    проспекта Строителей, в шаговой доступности. Сюда приезжают отдыхать дети и взрослые из других
+                    районов города, приходит много пожилых людей. Наш парк – это то, чем
+                    дышит Ленинский район, «лёгкие» нашего города, фундамент для здоровья детей. Время, проведенное в
+                    парках – это вклад в правильное мировоззрение дальнейшего развития
+                    города следующими поколениями. Не нужно превращать эти островки природы, которых практически не
+                    осталось, в каменные джунгли. Парк существует с 1968 года и является
+                    культурным и историческим наследием. Его возродили в 2012 году депутаты Саратовской городской думы.
+                    Для строительства школы с бассейном будет уничтожена половина
+                    парка с зелеными насаждениями, в том числе дубовая роща. Это огромная потеря! Вокруг парка проходят
+                    узкие дороги, парковочные карманы практически негде разместить и
+                    многочисленные автомобили родителей, приезжающие к школе, будут создавать постоянные заторы.
+                    Буквально в 300 метрах от парка расположена 103 школа, к которой в
+                    прошлом году по инициативе Володина В.В. был пристроен дополнительный корпус, позволивший учиться
+                    детям в одну смену. По такому же принципу можно сделать
+                    пристройку к 75 гимназии, т.к. именно в этом микрорайоне есть необходимость в дополнительных
+                    ученических местах. Территория гимназии позволяет это сделать. Кроме того, в
+                    непосредственной близости к 75 гимназии находится заброшенная территория со строениями завода
+                    «Карат». Также мы переживаем за здание ЦДТ, чтобы оно сохранило свою
+                    целостность, не разрушилось из-за изменения рельефа при строительстве. Мы требуем от представителей
+                    местной власти изыскать другое место для строительства новой
+                    школы, не заменяя при этом один социально значимый объект другим, а преумножая наше наследие и
+                    городскую комфортную среду, искореняя реальные пустыри и ветхие
+                    застройки, а не отбирая зеленые зоны у будущего поколения. С уважением:</p>
+                <form>
+                    <div class="form__group">
+                        <label for="name">Ваше имя</label>
+                        <input type="text" id="name" placeholder="Введите имя">
+                    </div>
+                    <div class="form__group">
+                        <label for="email">Электронный адрес</label>
+                        <input type="email" placeholder="***@yandex.ru" id="email">
+                    </div>
+                    <div class="form__group">
+                        <label for="phone">Номер телефона</label>
+                        <input type="tel" placeholder="7(999)999-99-99" id="phone">
+                    </div>
+                    <div class="form__group">
+                        <input type="checkbox" id="like" name="like" />
+                        <label for="lik">ЗА ПАРК</label>
+                    </div>
+                    <div class="form__group">
+                        <button class="form__submit" type="submit">Проголосовать
+                            <div class="like">
+                                <span class="plus cursor">+</span>
+                            </div>
+                        </button>
+                    </div>
+                    <div>
+                        <p>Нажимая на кнопку "Отправить", вы даёте согласие на обработку персональных данных
+                            и соглашаетесь c политикой конфиденциальности</p>
+                    </div>
+                </form>
+            </div>
         </div>
-    </footer>
+        <footer>
+            <div class="footer" id="contacts">
+                <div class="social-sety">
+                    <p>Присоединяйтесь к нам в социальных сетях и следите за новостями</p>
+                    <a class="social-icon-vk" href="https://vk.com/park_territoria_detstva" target="blank"><i
+                            class="fa fa-vk" aria-hidden="true"></i></a>
+
+                    <a class="social-icon-tg" href="https://t.me/Park_Territoria_detstva" target="blank"><i
+                            class="fa fa-telegram" aria-hidden="true"></i></a>
+                </div>
+                <div><a href="">политика конфиденциальности</a>
+                    <p>© 2025</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="main.js"></script>
 </body>
 
 </html>
