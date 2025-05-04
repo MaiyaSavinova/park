@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Фотографии</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--Модальное окошечко Вверх!-->
+    <a href="#"><button class="btn btn__up"><i class="fa fa-arrow-up" aria-hidden="true"></i><br>Вверх</button></a>
+    <!--Шапка сайта-->
+    <div class="wrapper">
+        <header class="main-header">
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="news.html">Новости</a></li>
+                    <li><a href="gallery.html">Фотографии</i></a></li>
+                    <li><a href="#help">Как нам помочь</a></li>
+                    <li><a href="#form">Проголосовать</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="style_main">
+            <!--Баннер-->
+            <div class="features features__dark" style="--opacityCoverImage:60%">
+                <div class="image_banner">
+                    <picture>
+                        <!-- <source media="(max-width: 767px)" srcset="">-->
+                        <img src="images/banner.jpg" alt="подложка_шатт" class="banner">
+                    </picture>
+                </div>
+                <!--Кнопка-лозунг-->
+                <div class="prew">
+                    <div class="prew-text">
+                        <h1>Спасем от застройки парк <br>"Територия детства"</h1>
+                    </div>
+                    <div class="logo">
+                        <img src="images/logo.png" height="250px" width="280px">
+                    </div>
+                    <div class="btn-border">
+                        <a href="#form"><button class="btn button">
+                                <span>Отдать свой голос <br><strong>ЗА ПАРК!</strong></span>
+                                <span class="flare"></span>
+                            </button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row gallery">
+                <div class="column">
+                    <img class="gallery-history hover-shadow" src="photo-gallery/photo-history_001.jpg"
+                        onclick="openModal();currentSlide(1)">
+                    <img class="gallery-history hover-shadow" src="photo-gallery/photo-history_002.jpg"
+                        onclick="openModal();currentSlide(2)">
+                    <img class="gallery-history hover-shadow" src="photo-gallery/photo-history_003.jpg"
+                        onclick="openModal();currentSlide(3)">
+                    <img class="gallery-history hover-shadow" src="photo-gallery/photo-history_004.jpg"
+                        onclick="openModal();currentSlide(4)">
+
+                </div>
+                <div class="column">
+                    <img class="gallery-history hover-shadow" src="photo-gallery/photo-history_005.jpg"
+                        onclick="openModal();currentSlide(5)">
+                    <img class="gallery-history hover-shadow" src="photo-gallery/photo-history_006.jpg"
+                        onclick="openModal();currentSlide(6)">
+                    <img class="gallery-history hover-shadow" src="photo-gallery/photo-history_007.jpg"
+                        onclick="openModal();currentSlide(7)">
+                    <img class="gallery-history hover-shadow" src="photo-gallery/photo-history_008.jpg"
+                        onclick="openModal();currentSlide(8)">
+                </div>
+                <div class="column">
+                    <img class="gallery-history hover-shadow" src="photo-gallery/photo-history_009.jpg"
+                        onclick="openModal();currentSlide(9)">
+                    <img class="gallery-history hover-shadow" src="photo-gallery/photo-history_010.jpg"
+                        onclick="openModal();currentSlide(10)">
+                    <img class="gallery-history hover-shadow" src="photo-gallery/photo-history_011.jpg"
+                        onclick="openModal();currentSlide(11)">
+                    <img class="gallery-history hover-shadow" src="photo-gallery/photo-history_012.jpg"
+                        onclick="openModal();currentSlide(12)">
+                </div>
+            </div>
+            <div id="myModal" class="modal__gallery">
+                <span class="close cursor" onclick="closeModal()"><i class="fa fa-window-close-o"
+                        aria-hidden="true"></i></span>
+                <div class="modal-content">
+
+                    <div class="mySlides">
+                        <img src="photo-gallery/photo-history_001.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <img src="photo-gallery/photo-history_002.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <img src="photo-gallery/photo-history_003.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <img src="photo-gallery/photo-history_004.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <img src="photo-gallery/photo-history_005.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <img src="photo-gallery/photo-history_006.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <img src="photo-gallery/photo-history_007.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <img src="photo-gallery/photo-history_008.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <img src="photo-gallery/photo-history_009.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <img src="photo-gallery/photo-history_011.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides">
+                        <img src="photo-gallery/photo-history_012.jpg" style="width:100%">
+                    </div>
+
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+
+                    <div class="column">
+                        <img class="demo" src="photo-gallery/photo-history_001.jpg" onclick="currentSlide(1)" alt="">
+                    </div>
+                    <div class="column">
+                        <img class="demo" src="photo-gallery/photo-history_002.jpg" onclick="currentSlide(2)" alt="">
+                    </div>
+                    <div class="column">
+                        <img class="demo" src="photo-gallery/photo-history_003.jpg" onclick="currentSlide(3)" alt="">
+                    </div>
+                    <div class="column">
+                        <img class="demo" src="photo-gallery/photo-history_004.jpg" onclick="currentSlide(4)" alt="">
+                    </div>
+                    <div class="column">
+                        <img class="demo" src="photo-gallery/photo-history_005.jpg" onclick="currentSlide(5)" alt="">
+                    </div>
+                    <div class="column">
+                        <img class="demo" src="photo-gallery/photo-history_006.jpg" onclick="currentSlide(6)" alt="">
+                    </div>
+                    <div class="column">
+                        <img class="demo" src="photo-gallery/photo-history_007.jpg" onclick="currentSlide(7)" alt="">
+                    </div>
+                    <div class="column">
+                        <img class="demo" src="photo-gallery/photo-history_008.jpg" onclick="currentSlide(8)" alt="">
+                    </div>
+                    <div class="column">
+                        <img class="demo" src="photo-gallery/photo-history_009.jpg" onclick="currentSlide(9)" alt="">
+                    </div>
+                    <div class="column">
+                        <img class="demo" src="photo-gallery/photo-history_010.jpg" onclick="currentSlide(10)" alt="">
+                    </div>
+                    <div class="column">
+                        <img class="demo" src="photo-gallery/photo-history_011.jpg" onclick="currentSlide(11)" alt="">
+                    </div>
+                    <div class="column">
+                        <img class="demo" src="photo-gallery/photo-history_012.jpg" onclick="currentSlide(12)" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+        </main>
+        <footer>
+            <div class="footer" id="contacts">
+                <div class="social-sety">
+                    <p>Присоединяйтесь к нам в социальных сетях и следите за новостями</p>
+                    <a class="social-icon-vk" href="https://vk.com/park_territoria_detstva" target="blank"><i
+                            class="fa fa-vk" aria-hidden="true"></i></a>
+
+                    <a class="social-icon-tg" href="https://t.me/Park_Territoria_detstva" target="blank"><i
+                            class="fa fa-telegram" aria-hidden="true"></i></a>
+                </div>
+                <div><a href="">политика конфиденциальности</a>
+                    <p>© 2025</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="main.js"></script>
+    <script src="gallery.js"></script>
+</body>
+
+</html>
